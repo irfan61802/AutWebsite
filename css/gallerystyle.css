@@ -1,0 +1,67 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#f4f4f4;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.6em;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+#nav-bar {
+	background-color:#333;
+	color:#fff;
+	padding: 30px;
+}
+
+#nav-bar ul{
+	padding:0;
+	list-style: none;
+	text-align: center;
+}
+
+#nav-bar li{
+	display:inline;
+	font-size: 16px;
+}
+
+#nav-bar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding: 100px;
+
+}
+
+
+#logotag {
+	text-align:center;
+}
+
+}
+.gallery {
+	/*margin:10px 50px;*/
+}
+.gallery img {
+	width: 15.8%;
+	padding: 5px;
+	filter:grayscale(100%);
+}
+.gallery img:hover {
+	filter:grayscale(0%);
+	transform: scale(1.12);
+
+}
+#galleryheader {
+	background-color:coral;
+	padding:15px;
+	color:white;
+	text-align:center;
+}

@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#f4f4f4;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.6em;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+#nav-bar {
+	background-color:#333;
+	color:#fff;
+	padding: 30px;
+}
+
+#nav-bar ul{
+	padding:0;
+	list-style: none;
+	text-align: center;
+}
+
+#nav-bar li{
+	display:inline;
+	font-size: 16px;
+}
+
+#nav-bar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding: 100px;
+}
+
+#nav-bar a:hover{
+	color:coral;
+}
+
+
+#logotag {
+	text-align:center;
+}
+
+#galleryheader{
+	text-align:center;
+	color:white;
+	background-color:coral;
+	padding: 15px;
+}
+
+.container1{
+	background-color: white;
+	text-align:center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-left: 28px;
+}
+
+/
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}

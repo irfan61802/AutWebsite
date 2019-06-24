@@ -1,0 +1,176 @@
+body {
+	background-color:#f4f4f4;
+	font-family:'Poppins', sans-serif;
+	line-height: 1.6em;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+#nav-bar {
+	background-color:#333;
+	color:#fff;
+	padding: 30px;
+}
+
+#nav-bar ul{
+	padding:0;
+	list-style: none;
+	text-align: center;
+}
+
+#nav-bar li{
+	display:inline;
+	font-size: 16px;
+}
+
+#nav-bar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding: 90px;
+
+}
+
+
+#logotag {
+	text-align:center;
+}
+
+#showcase{
+	background-color: coral;
+	background-position:center right;
+	height:300px;
+	margin-bottom:30px;
+}
+
+#showcase h1{
+	color:coral;
+	font-size:40px;
+	line-height: 1.6em;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+
+#main{
+	float: center;
+	width:70%
+	/* padding: 0 30px; */
+	box-sizing: border-box;
+	padding-bottom:50px;
+
+}
+
+#sidebar{
+	float: right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:20px;
+	box-sizing:border-box;
+
+}
+
+#sidebar h1{
+	color:coral;
+	font-size:55px;
+	line-height:1.6em;
+	padding-top:10px; 
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	letter-spacing:0.5em;
+}
+
+#sidebar ul{
+	padding:0;
+	list-style:square;
+	list-style:none;
+}
+
+#sidebar li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+}
+
+#sidebar2{
+	float: left;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:20px;
+	box-sizing:border-box;
+
+}
+#sidebar2 h2{
+	color:coral;
+	font-size:55px;
+	line-height:1.8em;
+	padding-top:10px; 
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	letter-spacing:1.0em;
+
+}
+
+#sidebar2 ul{
+	padding:0;
+	list-style:square;
+	list-style:none;
+}
+
+#sidebar2 li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+}
+
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float: none;
+
+	}
+	#sidebar{
+		width:100%;
+		float: none;
+	}
+	#sidebar2{
+		width:100%;
+		float: none;
+	}
+}
+
+a{
+	text-decoration:none;
+	color:coral;
+
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active{
+	color:white;
+}
+
+a:visited{
+
+}
